@@ -1,22 +1,10 @@
 {
-  "name": "modinha",
+  "name": "camfou-modinha",
   "description": "Modinha is a toolkit for creating persisted models in Nodejs.",
-  "author": {
-    "name": "Christian Smith",
-    "email": "smith@anvil.io",
-    "url": "http://anvil.io"
-  },
-  "contributors": [
-    {
-      "name": "Vartan Simonian",
-      "email": "vsimonianpress@gmail.com",
-      "url": "http://vsimonian.github.io/"
-    }
-  ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anvilresearch/modinha.git"
+    "url": "https://github.com/camfou/modinha.git"
   },
   "scripts": {
     "test": "mocha test && eslint . && echo Code looks good!",
@@ -26,33 +14,29 @@
   "main": "./lib/Modinha.js",
   "license": "MIT",
   "engines": {
-    "node": ">=6.11.2"
+    "node": ">=10"
   },
   "devDependencies": {
-    "chai": "^4.1.1",
+    "chai": "^4.2.0",
     "coffee-script": "^1.12.7",
-    "eslint": "^4.4.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "grunt": "~1.0.1",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "grunt": "^1.0.4",
     "grunt-release": "^0.14.0",
     "mocha": "^3.5.0",
     "sinon": "^2.1.0",
     "sinon-chai": "^2.12.0"
   },
   "dependencies": {
-    "async": "^2.5.0",
-    "clone": "^2.1.1",
+    "clone": "^2.1.2",
     "lx-valid": "^1.2.4",
     "object-assign": "^4.1.1",
-    "underscore": "^1.8.3",
+    "underscore": "^1.9.1",
     "underscore-deep-extend": "1.1.5",
-    "uuid": "^3.1.0"
-  },
-  "bugs": {
-    "url": "https://github.com/anvilresearch/modinha/issues"
+    "uuid": "^3.3.2"
   }
 }
