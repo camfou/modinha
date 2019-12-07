@@ -1,5 +1,5 @@
 # Modinha
-[![Build Status](https://travis-ci.org/camfou/modinha.svg?branch=master)](https://travis-ci.org/camfou/modinha)
+[![Build Status](https://travis-ci.org/camfou/modinha.svg?branch=master)] ![License](https://img.shields.io/github/license/camfou/modinha.svg) ![npm](https://img.shields.io/david/camfou/modinha.svg?style=flat) ![Coverage Status](https://coveralls.io/repos/github/camfou/modinha/badge.svg?branch=master)
 
 Modinha is a toolkit for creating persisted models. This is for programmers who like to work from the bottom up, building up persistence code from low level drivers, such as node_redis. Modinha provides:
 
@@ -21,14 +21,14 @@ Modinha is a toolkit for creating persisted models. This is for programmers who 
 #### Install
 
 ```bash
-$ npm install modinha
+$ npm install camfou-modinha
 ```
 
 
 #### Require
 
 ```javascript
-var Modinha = require('modinha');
+var Modinha = require('camfou-modinha');
 ```
 
 
