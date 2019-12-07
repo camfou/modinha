@@ -1,6 +1,6 @@
 {
   "name": "camfou-modinha",
-  "description": "Modinha is a toolkit for creating persisted models in Nodejs.",
+  "description": "Modinha is a toolkit for creating persisted models in Nodejs. (camfou fork)",
   "version": "0.2.0",
   "repository": {
     "type": "git",
@@ -13,30 +13,26 @@
   },
   "main": "./lib/Modinha.js",
   "license": "MIT",
-  "engines": {
-    "node": ">=10"
-  },
   "devDependencies": {
     "chai": "^4.2.0",
-    "coffee-script": "^1.12.7",
-    "eslint": "^6.0.1",
-    "eslint-config-standard": "^13.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
+    "coffeescript": "^2.4.1",
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "grunt": "^1.0.4",
-    "grunt-release": "^0.14.0",
-    "mocha": "^3.5.0",
-    "sinon": "^2.1.0",
-    "sinon-chai": "^2.12.0"
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
   },
   "dependencies": {
     "clone": "^2.1.2",
+    "coveralls": "^3.0.9",
     "lx-valid": "^1.2.4",
     "object-assign": "^4.1.1",
     "underscore": "^1.9.1",
     "underscore-deep-extend": "1.1.5",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.3"
   }
 }
