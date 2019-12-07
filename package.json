@@ -9,7 +9,9 @@
   "scripts": {
     "test": "mocha test && eslint . && echo Code looks good!",
     "lint": "eslint . && echo Code looks good!",
-    "test-watch": "mocha test --watch"
+    "test-watch": "mocha test --watch",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "main": "./lib/Modinha.js",
   "license": "MIT",
@@ -29,6 +31,7 @@
   "dependencies": {
     "clone": "^2.1.2",
     "coveralls": "^3.0.9",
+    "istanbul": "^0.4.5",
     "lx-valid": "^1.2.4",
     "object-assign": "^4.1.1",
     "underscore": "^1.9.1",
