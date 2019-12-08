@@ -1,23 +1,23 @@
 {
   "name": "camfou-modinha",
   "description": "Modinha is a toolkit for creating persisted models in Nodejs. (camfou fork)",
-  "version": "0.2.1",
+  "version": "0.0.0-development",
   "repository": {
     "type": "git",
     "url": "https://github.com/camfou/modinha.git"
   },
   "scripts": {
-    "test": "mocha test && eslint . && echo Code looks good!",
-    "lint": "eslint . && echo Code looks good!",
+    "test": "mocha",
+    "lint": "eslint",
     "test-watch": "mocha test --watch",
-    "cover": "istanbul cover _mocha",
-    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+    "cover": "nyc --reporter=lcov npm run test"
   },
   "main": "./lib/Modinha.js",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
     "coffeescript": "^2.4.1",
+    "coveralls": "^3.0.9",
     "eslint": "^6.7.2",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
@@ -25,13 +25,13 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "semantic-release": "^15.13.31",
     "sinon": "^7.5.0",
     "sinon-chai": "^3.3.0"
   },
   "dependencies": {
     "clone": "^2.1.2",
-    "coveralls": "^3.0.9",
-    "istanbul": "^0.4.5",
     "lx-valid": "^1.2.4",
     "object-assign": "^4.1.1",
     "underscore": "^1.9.1",
