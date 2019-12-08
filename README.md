@@ -1,5 +1,5 @@
 # Modinha
-[![Build Status](https://travis-ci.org/camfou/modinha.svg?branch=master)] ![License](https://img.shields.io/github/license/camfou/modinha.svg) ![npm](https://img.shields.io/david/camfou/modinha.svg?style=flat) ![Coverage Status](https://coveralls.io/repos/github/camfou/modinha/badge.svg?branch=master)
+[![Build Status](https://travis-ci.org/camfou/modinha.svg?branch=master)] ![License](https://img.shields.io/github/license/camfou/modinha.svg) ![npm](https://img.shields.io/david/camfou/modinha.svg?style=flat) ![Coverage Status](https://coveralls.io/repos/github/camfou/modinha/badge.svg?branch=master) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Modinha is a toolkit for creating persisted models. This is for programmers who like to work from the bottom up, building up persistence code from low level drivers, such as node_redis. Modinha provides:
 
