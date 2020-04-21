@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "lint": "eslint",
+    "lint": "eslint -c .eslintrc lib/**",
     "test-watch": "mocha test --watch",
     "cover": "nyc --reporter=lcov npm run test"
   },
@@ -16,26 +16,26 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
-    "coffeescript": "^2.4.1",
-    "coveralls": "^3.0.9",
-    "eslint": "^6.7.2",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
+    "coffeescript": "^2.5.1",
+    "coveralls": "^3.0.11",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "mocha": "^6.2.2",
-    "nyc": "^14.1.1",
-    "semantic-release": "^15.13.31",
-    "sinon": "^7.5.0",
-    "sinon-chai": "^3.3.0"
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1",
+    "semantic-release": "^17.0.6",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
   },
   "dependencies": {
     "clone": "^2.1.2",
     "lx-valid": "^1.2.4",
     "object-assign": "^4.1.1",
-    "underscore": "^1.9.1",
+    "underscore": "^1.10.2",
     "underscore-deep-extend": "1.1.5",
-    "uuid": "^3.3.3"
+    "uuid": "^7.0.3"
   }
 }
